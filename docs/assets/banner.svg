@@ -1,0 +1,30 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+  <defs>
+    <radialGradient id="glow" cx="0" cy="0.5" r="0.6">
+      <stop offset="0" stop-color="#FF5500" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#FF5500" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect x="0.5" y="0.5" width="1199" height="319" rx="18" fill="#111216" stroke="#262830"/>
+  <rect x="0.5" y="0.5" width="1199" height="319" rx="18" fill="url(#glow)"/>
+  <rect x="4" y="40" width="8" height="240" rx="4" fill="#FF5500"/>
+  <g stroke="#FF5500" stroke-opacity="0.22" stroke-width="1.5">
+    <line x1="920" y1="320" x2="1120" y2="0"/>
+    <line x1="980" y1="320" x2="1180" y2="0"/>
+    <line x1="1040" y1="320" x2="1200" y2="64"/>
+  </g>
+  <text x="70" y="130" font-size="52" font-weight="800" fill="#FF5500">BraveTweaker</text>
+  <text x="70" y="180" font-size="22" fill="#D4D4D8">De-bloat Brave and harden privacy through Windows policies.</text>
+  <rect x="70" y="236" width="131" height="40" rx="10" fill="#181A20" stroke="#2C2F3A"/>
+  <circle cx="90" cy="256" r="5" fill="#FF5500"/>
+  <text x="104" y="262" font-size="16" fill="#E4E4E7">37 tweaks</text>
+  <rect x="215" y="236" width="131" height="40" rx="10" fill="#181A20" stroke="#2C2F3A"/>
+  <circle cx="235" cy="256" r="5" fill="#FF5500"/>
+  <text x="249" y="262" font-size="16" fill="#E4E4E7">GUI + CLI</text>
+  <rect x="360" y="236" width="183" height="40" rx="10" fill="#181A20" stroke="#2C2F3A"/>
+  <circle cx="380" cy="256" r="5" fill="#FF5500"/>
+  <text x="394" y="262" font-size="16" fill="#E4E4E7">Backup + revert</text>
+  <rect x="557" y="236" width="174" height="40" rx="10" fill="#181A20" stroke="#2C2F3A"/>
+  <circle cx="577" cy="256" r="5" fill="#FF5500"/>
+  <text x="591" y="262" font-size="16" fill="#E4E4E7">Tab containers</text>
+</svg>
