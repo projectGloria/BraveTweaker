@@ -7,6 +7,7 @@
 Windows GUI and CLI that applies 37 Brave Browser tweaks through registry policies and profile `Preferences` edits.
 
 <img src="https://img.shields.io/badge/C%23-.NET%20Framework%204-FF5500?style=flat-square" alt="C#" />
+<img src="https://img.shields.io/badge/version-1.0.0-2b2d34?style=flat-square" alt="Version" />
 <img src="https://img.shields.io/badge/Platform-Windows-2b2d34?style=flat-square" alt="Platform" />
 <img src="https://img.shields.io/github/last-commit/projectGloria/BraveTweaker?style=flat-square&color=FF5500" alt="Last commit" />
 
@@ -44,7 +45,17 @@ BraveTweaker is a single `BraveTweaker.exe` built with the `csc.exe` compiler th
 
 ## Screenshots
 
-<!-- Screenshot not captured: the app manifest requires administrator elevation (UAC prompt), so it cannot be launched silently. -->
+<p align="center">
+  <img src="docs/assets/screenshot-main.png" alt="BraveTweaker main window showing Brave Bloat and UI tweaks" width="720" />
+  <br />
+  <em>Main window showing tweak toggles, live <code>ACTIVE</code> status badges, quick presets, policy scope selector, and output log.</em>
+</p>
+
+<p align="center">
+  <img src="docs/assets/screenshot-containers.png" alt="BraveTweaker Tab Containers view with preset containers queued" width="720" />
+  <br />
+  <em>Tab Containers view for inspecting existing Brave containers and queuing custom or preset containers.</em>
+</p>
 
 ## How it works
 
